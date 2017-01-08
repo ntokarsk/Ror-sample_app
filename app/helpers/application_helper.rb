@@ -6,12 +6,3 @@ module ApplicationHelper
     return page_title + " | " + base_title
   end
 end
-
-=begin
-def random_subdomain
-  return ('a'..'z').to_a.shuffle[0..7]
-  #tmp = tmp.shuffle
-  #tmp = tmp[0..7]
-  #return tmp
-end
-=end
