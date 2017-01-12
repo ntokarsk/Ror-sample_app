@@ -11,5 +11,9 @@ module DefaultScope
 
 		def contact
 		end
+
+		def cloud
+		end
+		
 	end
 end

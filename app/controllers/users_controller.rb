@@ -19,6 +19,11 @@ module DefaultScope
     	end
   	end
 
+    def edit
+      @user = User.find(params[:id])
+        render "default_scope/users/edit"
+    end
+
   	private
 	    def user_params
 	      params.require(:user).permit(:name, :email, :password,

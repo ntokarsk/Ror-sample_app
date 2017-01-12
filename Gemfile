@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails',          '5.0.1'
+gem 'url_shortener' #https://github.com/nas/url_shortener
+gem 'jqcloud-rails'
 gem 'bcrypt',         '3.1.11'
 gem 'bootstrap-sass', '3.3.6'
 gem 'puma',           '3.4.0'
